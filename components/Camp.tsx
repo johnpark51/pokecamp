@@ -65,6 +65,30 @@ const Camp = () => {
 					peopleJoined="50+ Joined"
 				/>
 			</div>
+
+			<div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
+				<div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+					<h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
+						<strong>Feeling lost</strong> and not knowing the way?
+					</h2>
+					<p className="regular-14 xl:regular-16 mt-5 text-white">
+						Imagine stepping into a vibrant world where every path leads to
+						adventure, and each day brings the chance to discover new Pokémon.
+						From towering mountains to vast oceans, the world is alive with
+						creatures waiting to be trained and befriended. Whether you're
+						striving to become a champion or simply exploring for the thrill of
+						discovery, every journey in the Pokémon world is an unforgettable
+						experience.
+					</p>
+					<Image
+						src="/quote.svg"
+						alt="camp-2"
+						width={186}
+						height={219}
+						className="camp-quote"
+					/>
+				</div>
+			</div>
 		</section>
 	);
 };
