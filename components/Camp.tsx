@@ -50,7 +50,7 @@ const CampSite = ({
 
 const Camp = () => {
 	return (
-		<section className="border-2 border-green-500 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+		<section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
 			<div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
 				<CampSite
 					backgroundImage="bg-bg-img-1"
@@ -58,7 +58,12 @@ const Camp = () => {
 					subtitle="Prigen, Pasuruan"
 					peopleJoined="50+ Joined"
 				/>
-				<CampSite />
+				<CampSite
+					backgroundImage="bg-bg-img-2"
+					title="Kanto Brock Camp"
+					subtitle="Somewhere in first gen"
+					peopleJoined="50+ Joined"
+				/>
 			</div>
 		</section>
 	);
