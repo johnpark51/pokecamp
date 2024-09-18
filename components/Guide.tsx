@@ -6,11 +6,11 @@ const Guide = () => {
 			<div className="padding-container max-container w-full pb-24">
 				<Image src="/camp.svg" alt="camp" width={50} height={50} />
 				<p className="uppercase regular-18 mt-1 mb-3 text-green-50">
-					We are here for you
+					Feeling confused?
 				</p>
 				<div className="flex flex-wrap justify-between gap-5 lg:gap-10">
 					<h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-						Guide you to Easy Path
+						Guiding you to the best walkthrough
 					</h2>
 					<p className="regular-16 text-gray-30 xl:max-w-[520px]">
 						Picture yourself setting up camp under a starlit sky, surrounded by
@@ -27,7 +27,7 @@ const Guide = () => {
 
 			<div className="flexCenter max-container relative w-full">
 				<Image
-					src="/boat.png"
+					src="/boat.jpg"
 					alt="boat"
 					width={1440}
 					height={580}
@@ -46,16 +46,14 @@ const Guide = () => {
 						<div className="flex w-full flex-col">
 							<div className="flexBetween w-full">
 								<p className="regular-16 text-gray-20">Destination</p>
-								<p className="bold-16 text-green-50">48 mins</p>
+								<p className="bold-16 text-green-50">7 mins</p>
 							</div>
-							<p className="bold-20 mt-2">Aguas Calientes</p>
+							<p className="bold-20 mt-2">Tagtree Thicket</p>
 						</div>
 
 						<div className="flex w-full flex-col">
 							<p className="regular-16 text-gray-20">Start track</p>
-							<h4 className="bold-20 mt-2 whitespace-nowrap">
-								Wonorejo Pasuruan
-							</h4>
+							<h4 className="bold-20 mt-2 whitespace-nowrap">Asado Desert</h4>
 						</div>
 					</div>
 				</div>

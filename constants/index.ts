@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
 	{ href: "/", key: "home", label: "Home" },
-	{ href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
+	{ href: "/", key: "how_pokecamp_work", label: "How Pokecamp Works?" },
 	{ href: "/", key: "services", label: "Services" },
 	{ href: "/", key: "pricing ", label: "Pricing " },
 	{ href: "/", key: "contact_us", label: "Contact Us" },
@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
 	{
-		title: "Real maps can be offline",
+		title: "Interactive Region Map with Search Functionality",
 		icon: "/map.svg",
 		variant: "green",
 		description:
-			"We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+			"An interactive map of the Paldea region where users can search for specific locations, Pokémon habitats, items, or trainers.",
 	},
 	{
-		title: "Set an adventure schedule",
+		title: "Raid Battle Calendar and Notification System",
 		icon: "/calendar.svg",
 		variant: "green",
 		description:
-			"Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+			"A real-time calendar that lists current and upcoming raid battles, along with the featured Pokémon, their types, and difficulty levels. Users could subscribe to receive notifications for specific raid events.",
 	},
 	{
-		title: "Technology using augment reality",
+		title: "Team Builder and Battle Simulator",
 		icon: "/tech.svg",
 		variant: "green",
 		description:
-			"Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+			"A team-building tool that lets users create their ideal Pokémon team based on the game’s roster, movesets, abilities, and held items. A built-in battle simulator could help them test team synergies against different opponents.",
 	},
 	{
-		title: "Many new locations every month",
+		title: "Pokédex with Sorting and Filtering Options",
 		icon: "/location.svg",
 		variant: "orange",
 		description:
-			"Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+			"A complete Pokédex for Scarlet and Violet, allowing users to filter by type, generation, region, abilities, and evolutionary paths. It could also show the locations of each Pokémon within the game.",
 	},
 ];
 
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
 	{
 		title: "Learn More",
 		links: [
-			"About Hilink",
+			"About PokeCamp",
 			"Press Releases",
 			"Environment",
 			"Jobs",
@@ -62,7 +62,7 @@ export const FOOTER_LINKS = [
 	},
 	{
 		title: "Our Community",
-		links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+		links: ["Paldea Shinies", "Travel Paldea", "Strong mons"],
 	},
 ];
 
@@ -70,7 +70,7 @@ export const FOOTER_CONTACT_INFO = {
 	title: "Contact Us",
 	links: [
 		{ label: "Admin Officer", value: "123-456-7890" },
-		{ label: "Email Officer", value: "hilink@akinthil.com" },
+		{ label: "Email Officer", value: "pokecamp@pokemon.com" },
 	],
 };
 

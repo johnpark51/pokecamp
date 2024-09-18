@@ -14,12 +14,12 @@ const Hero = () => {
 					height={50}
 					className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
 				/>
-				<h1 className="bold-52 lg:bold-88">Sinnoh Camp Area</h1>
+				<h1 className="bold-52 lg:bold-88">Paldean Region</h1>
 				<p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-					Here, you can help us be a part of your journey to explore this camp
-					area. We hope you can enjoy our travel features!
+					Here, we'll be alongside your journey throughout the Paldea region! As
+					the massive region can be overwhelming for some, we want you to to be
+					able to travel with ease and confidence.
 				</p>
-
 				<div className="my-11 flex flex-wrap gap-5">
 					<div className="flex items-center gap-2">
 						{Array(5)
@@ -42,7 +42,6 @@ const Hero = () => {
 						</span>
 					</p>
 				</div>
-
 				<div className="flex flex-col w-full gap-3 sm:flex-row">
 					<Button type="button" title="Download App" variant="btn_green" />
 					<Button
@@ -61,7 +60,7 @@ const Hero = () => {
 							<p className="regular-16 text-gray-20">Location</p>
 							<Image src="/close.svg" alt="close" width={24} height={24} />
 						</div>
-						<p className="bold-20 text-white">Aguas Calientes</p>
+						<p className="bold-20 text-white">Area Zero</p>
 					</div>
 
 					<div className="flexBetween">
